@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockVest Risk Disclosure Statement</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans">
+
+    <!-- Header -->
+    <header class="bg-gray-950">
+        <div class="hidden xl:flex justify-between items-center gap-5 mx-6 md:mx-10 h-20 pt-3 text-white font-semibold">
+            <div class="basis-50"><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></div>
+            <div><a href="" class="hover:underline">Dashboard</a></div>
+            <div><a href="./index.html#investmentOptions" class="hover:underline">Investment Options</a></div>
+            <div><a href="./index.html#howItWorks" class="hover:underline">How It Works</a></div>
+            <div><a href="./index.html#ourStory" class="hover:underline">About Us</a></div>
+            <div><a href="./index.html#resources" class="hover:underline">Resources</a></div>
+            <div class="basis-50"><a href="" class="hover:underline">Contact Us</a></div>
+            <div class="justify-self-end"><a href="" class="hover:underline">Log in <span aria-hidden="true">&rarr;</span></a></div>
+        </div>
+
+        <div id="hamburgerMenu" class="flex xl:hidden justify-between items-center mx-6 md:mx-10">
+            <div class="p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></a></div>
+            <div>
+                <button id="mobileHamburgerBtn" class="py-2.5 px-3 rounded-md md:py-3 md:px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" style="color: white;" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobileMenu" class="fixed hidden flex-col items-start mx-6 md:mx-10 ml-10 pt-3 text-white font-semibold bg-gray-700/100 w-full h-full z-50">
+            <div class="flex justify-between items-center w-full">
+                <div class="ml-10 p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></a></div>
+                <div>
+                    <button id="mobileCancelBtn" class="py-2.5 px-3 rounded-md md:py-3 md:px-4 mr-20">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Dashboard</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#investmentOptions">Investment Options</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#howItWorks">How It Works</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#ourStory">About Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#resources">Resources</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Contact Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Log in <span aria-hidden="true">&rarr;</span></a></div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Risk Disclosure Content -->
+    <main class="max-w-7xl mx-auto px-6 md:px-10 py-12">
+        <header class="text-center mb-12 pt-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-white flex items-center justify-center gap-3">
+                RISK DISCLOSURE STATEMENT
+            </h1>
+            <p class="mt-4 text-text-muted"><strong>Last Updated:</strong> January 15, 2025</p>
+        </header>
+
+        <!-- Important Notice -->
+        <div class="bg-gradient-to-r from-indigo-900 to-purple-900 border-l-4 rounded-r-xl p-6 md:p-8 mb-12 shadow-xl">
+            <h2 class="text-2xl font-bold text-white mb-4">IMPORTANT NOTICE</h2>
+            <p class="text-lg mb-4"><strong>Real estate investing carries significant risks. You may lose some or all of your invested capital.</strong></p>
+            <p class="mb-4">This Risk Disclosure Statement describes the principal risks of investing through BlockVest. You should read this carefully before investing.</p>
+            <p class="text-lg font-semibold">By investing through BlockVest, you acknowledge that you have read, understood, and accepted these risks.</p>
+        </div>
+
+        <!-- Section 1: General Investment Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                1. GENERAL INVESTMENT RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">1.1 Loss of Capital</h3>
+            <p class="mb-6">You may lose some or all of your investment. Real estate values fluctuate, and there is no guarantee you will recover your initial investment.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">1.2 Past Performance</h3>
+            <p class="mb-6">Past performance of properties, markets, or BlockVest's platform does not guarantee future results. Historical returns are not predictive.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">1.3 No Guaranteed Returns</h3>
+            <p class="mb-6">Projected returns are estimates based on assumptions. Actual returns may be significantly lower or negative.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">1.4 Long-Term Investment</h3>
+            <p>Real estate is illiquid. You should expect to hold investments for 3-10 years minimum. Even though we come in to solve the problem of illiquidity by giving access to your investment capital even immediately after ivestment. Please Do Note That: <strong>Premature Exits</strong> from investments might cost you some of your investment capital due to closing costs and other clearly stated fees to you.</p>
+        </section>
+
+        <!-- Section 2: Market Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                2. MARKET RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.1 Economic Downturn</h3>
+            <p class="mb-4">Economic recessions can cause:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class=" mr-2">•</span> Property value declines</li>
+                <li class="flex items-start"><span class=" mr-2">•</span> Reduced rental demand</li>
+                <li class="flex items-start"><span class=" mr-2">•</span> Tenant payment defaults</li>
+                <li class="flex items-start"><span class=" mr-2">•</span> Difficulty selling properties</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.2 Real Estate Market Risks</h3>
+            <p class="mb-4">Property markets are cyclical and can experience:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Price corrections</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Oversupply (reducing rents and values)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Reduced buyer demand</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Extended sales periods</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.3 Location-Specific Risks</h3>
+            <p class="mb-4">Individual neighborhoods can decline due to:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Crime increases</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Infrastructure deterioration</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Business closures</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Population shifts</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Environmental issues</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.4 Regulatory Changes</h3>
+            <p class="mb-4">Government actions can affect property values:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Tax increases</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> New regulations restricting development</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Zoning changes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Rent control policies</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property acquisition for public use</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Property-Specific Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                3. PROPERTY-SPECIFIC RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.1 Vacancy Risk</h3>
+            <p class="mb-4">Properties may experience periods without tenants, resulting in:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Zero rental income</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Ongoing maintenance costs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Market rent declines</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant turnover expenses</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.2 Tenant Default</h3>
+            <p class="mb-4">Tenants may fail to pay rent, requiring:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Legal eviction processes (3-6 months)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Lost income during vacancy</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property damage repair costs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Legal fees</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.3 Property Damage</h3>
+            <p class="mb-4">Properties can be damaged by:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Natural disasters (flooding, storms)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Fire</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Vandalism</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Structural failures</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant negligence</li>
+            </ul>
+            <p class="mb-6">While properties are insured, coverage may not be complete, and claims take time to process.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.4 Maintenance and Repair</h3>
+            <p class="mb-4">Unexpected major repairs can occur:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Roof replacement</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Plumbing/electrical system failures</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Foundation issues</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Environmental remediation</li>
+            </ul>
+            <p class="mb-6">These can significantly reduce returns or require additional capital contributions.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.5 Title and Legal Risks</h3>
+            <p class="mb-4">Despite due diligence, properties may face:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Ownership disputes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Undisclosed liens or encumbrances</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Survey or boundary errors</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Zoning violations</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Land acquisition by government</li>
+            </ul>
+        </section>
+
+        <!-- Section 4: Income and Return Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                4. INCOME AND RETURN RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">4.1 No Guaranteed Income</h3>
+            <p class="mb-4">Dividend payments depend on:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Property occupancy</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant payment</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Operating expenses</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property management performance</li>
+            </ul>
+            <p class="mb-6">Dividends may be reduced, delayed, or eliminated.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">4.2 Variable Returns</h3>
+            <p class="mb-4">Actual returns may differ from projections due to:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Market rent changes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Expense increases</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Vacancy periods</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property value changes</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">4.3 Inflation Risk</h3>
+            <p class="mb-6">Inflation erodes purchasing power. While real estate generally tracks inflation, there is no guarantee your returns will keep pace.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">4.4 Currency Risk</h3>
+            <p>For dollar-denominated investments or international investors, naira devaluation affects real returns.</p>
+        </section>
+
+        <!-- Section 5: Liquidity Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                5. LIQUIDITY RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.1 Sale Below Purchase Price</h3>
+            <p class="mb-4">When you exit, you may receive less than your initial investment due to:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Property value decline</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Market conditions</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Sales costs and fees</li>
+            </ul>
+        </section>
+
+        <!-- Section 6: Platform and Operational Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                6. PLATFORM AND OPERATIONAL RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.1 Platform Dependence</h3>
+            <p class="mb-4">Your investment <strong>DOES NOT</strong> depend on BlockVest's continued operation. If BlockVest ceases operations:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> You retain property ownership with options to hire a new manager, sell or transfer ownership</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property management may change</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Platform access may be limited</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Administrative costs may change</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.2 Property Management Risk</h3>
+            <p class="mb-4">Property performance depends on management quality. Poor management can lead to:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Reduced rental income</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property deterioration</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant dissatisfaction</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Increased expenses</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.3 Technology Risks</h3>
+            <p class="mb-4">Platform disruptions from:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> System failures</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Cybersecurity breaches</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Data loss</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Service provider outages</li>
+            </ul>
+            <p class="mb-6">May affect access to information or services.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.4 Third-Party Dependencies</h3>
+            <p class="mb-4">We rely on third parties for:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Payment processing</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property management</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Legal services</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Insurance coverage</li>
+            </ul>
+            <p>Their failures can affect your investment.</p>
+        </section>
+
+        <!-- Section 7: Regulatory and Legal Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                7. REGULATORY AND LEGAL RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.1 Regulatory Changes</h3>
+            <p class="mb-4">Changes in securities, real estate, or tax laws may:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Affect investment structure</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Increase costs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Limit investment options</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Change tax treatment</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.2 Compliance Risks</h3>
+            <p class="mb-4">If BlockVest fails to maintain regulatory compliance:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Platform may be suspended</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Penalties may be incurred</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Reputational damage may occur</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.3 Legal Disputes</h3>
+            <p class="mb-4">Properties may become subject to:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant lawsuits</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Neighbor disputes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Environmental claims</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Contract disputes</li>
+            </ul>
+            <p>Legal costs and outcomes are unpredictable.</p>
+        </section>
+
+        <!-- Section 8: Tax Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                8. TAX RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.1 Tax Treatment</h3>
+            <p class="mb-4">Tax laws are complex and subject to change. Your tax obligations depend on:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Income level</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Other investments</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Changes in tax law</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Jurisdictional rules (for international investors)</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.2 Tax Liability</h3>
+            <p class="mb-4">You are responsible for:</p>
+            <ul class="space-y-2 pl-6 mb-4">
+                <li class="flex items-start"><span class="  mr-2">•</span> Reporting investment income</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Paying applicable taxes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Understanding tax obligations</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Consulting tax advisors</li>
+            </ul>
+            <p>BlockVest withholds required taxes but does not provide tax advice.</p>
+        </section>
+
+        <!-- Section 9: Concentration Risk -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                9. CONCENTRATION RISK
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">9.1 Geographic Concentration</h3>
+            <p class="mb-6">If you invest primarily in one location (e.g., Lagos), you're exposed to location-specific risks.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">9.2 Property Type Concentration</h3>
+            <p class="mb-6">Investing heavily in one property type (e.g., student housing) increases exposure to sector-specific risks.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">9.3 Single Property Risk</h3>
+            <p>Putting significant capital in one property eliminates diversification benefits.</p>
+        </section>
+
+        <!-- Section 10: Specific Property Type Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                10. SPECIFIC PROPERTY TYPE RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">10.1 Student Housing</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> High seasonal vacancy (3-4 months annually)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Dependent on university enrollment</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Higher wear and tear</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Academic calendar disruptions</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">10.2 Commercial Properties</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Economic sensitivity (businesses close during recessions)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Longer vacancy periods when empty</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant improvement costs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Lease negotiation complexities</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">10.3 Residential Properties</h3>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Regulatory risks (rent control)</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant rights protections</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Maintenance demands</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Market saturation</li>
+            </ul>
+        </section>
+
+        <!-- Section 11: Force Majeure Risks -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                11. FORCE MAJEURE RISKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6">Events beyond our control can severely impact investments:</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">11.1 Natural Disasters</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Flooding</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Earthquakes</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Storms</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Environmental contamination</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">11.2 Pandemics</h3>
+            <p class="mb-4">Health crises can cause:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Economic shutdowns</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant payment defaults</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property access restrictions</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Market disruptions</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">11.3 Political Instability</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Civil unrest</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Government instability</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Policy unpredictability</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Security concerns</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">11.4 Infrastructure Failures</h3>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Power grid failures</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Water supply disruptions</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Road deterioration</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Communication breakdowns</li>
+            </ul>
+        </section>
+
+        <!-- Section 12: Financial Projections and Assumptions -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                12. FINANCIAL PROJECTIONS AND ASSUMPTIONS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">12.1 Projection Uncertainty</h3>
+            <p class="mb-4">All financial projections are based on assumptions that may prove incorrect:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Market rent estimates</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Occupancy rates</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Operating expense forecasts</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Property value appreciation</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Exit timing and pricing</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">12.2 Best-Case Scenarios</h3>
+            <p class="mb-6">Projected returns often represent favorable scenarios. Actual results are typically lower.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">12.3 Unforeseen Costs</h3>
+            <p class="mb-4">Unexpected expenses can significantly reduce returns:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Major repairs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Legal fees</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Regulatory compliance costs</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Special assessments</li>
+            </ul>
+        </section>
+
+        <!-- Section 13: Lack of Control -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                13. LACK OF CONTROL
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">13.1 Limited Decision-Making</h3>
+            <p class="mb-4">As fractional owner, you have limited control over:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Property management decisions</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Tenant selection</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Maintenance priorities</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Sale timing</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Major improvements</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">13.2 Majority Rules</h3>
+            <p>Major decisions may be made by majority vote. You may disagree with decisions but be bound by them.</p>
+        </section>
+
+        <!-- Section 14: Conflicts of Interest -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                14. CONFLICTS OF INTEREST
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">14.1 Platform Fees</h3>
+            <p class="mb-6">BlockVest earns fees from your returns, which may create incentive misalignment.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">14.2 Related Parties</h3>
+            <p>BlockVest may have relationships with service providers (property managers, legal advisors), creating potential conflicts.</p>
+        </section>
+
+        <!-- Section 15: Information Limitations -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                15. INFORMATION LIMITATIONS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">15.1 Due Diligence Limitations</h3>
+            <p class="mb-4">Despite thorough verification, we may not discover:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Hidden property defects</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Undisclosed legal issues</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Inaccurate representations</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Future problems</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">15.2 Information Delays</h3>
+            <p class="mb-4">Property performance information may be delayed by:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Reporting timelines</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Management company schedules</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Third-party dependencies</li>
+            </ul>
+        </section>
+
+        <!-- Section 16: No Investment Advice -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                16. NO INVESTMENT ADVICE
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">BlockVest does not provide investment, financial, tax, or legal advice. We provide information only.</p>
+            <p class="mb-4">You should:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Conduct your own research</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Consult qualified advisors</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Understand your personal financial situation</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Make informed decisions independently</li>
+            </ul>
+        </section>
+
+        <!-- Section 17: Suitability -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                17. SUITABILITY
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">Real estate investing through BlockVest may not be suitable for:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="  mr-2">•</span> Those unable to afford potential losses</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Those unfamiliar with real estate risks</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Those requiring guaranteed income</li>
+                <li class="flex items-start"><span class="  mr-2">•</span> Those with low risk tolerance</li>
+            </ul>
+            <p class="text-lg font-semibold ">Only invest money you can afford to lose and do not need for near-term expenses.</p>
+        </section>
+
+        <!-- Section 18: Acknowledgment -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                18. ACKNOWLEDGMENT
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6 text-lg">By investing through BlockVest, you acknowledge that:</p>
+            <ul class="space-y-3 pl-6">
+                <li class="flex items-start"><span class=" mr-2">✓</span> You have read and understood this Risk Disclosure Statement</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You accept all risks described herein</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You understand you may lose your entire investment</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You are investing without guarantees or promises</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You have consulted advisors or chosen not to</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You are making an informed, voluntary investment decision</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You can afford to hold the investment long-term</li>
+                <li class="flex items-start"><span class=" mr-2">✓</span> You can afford to lose the invested capital</li>
+            </ul>
+        </section>
+
+        <!-- Section 19: Questions -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1
+ border-primary relative">
+                19. QUESTIONS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">If you have questions about these risks, contact:</p>
+            <ul class="space-y-2 mb-6">
+                <li><strong>Email:</strong> <a href="mailto:invest@blockvest.ng" class="text-primary hover:underline">invest@blockvest.ng</a></li>
+                <li><strong>Phone:</strong> [Your Number]</li>
+            </ul>
+            <p class="text-lg font-semibold ">We strongly encourage you to seek independent financial and legal advice before investing.</p>
+        </section>
+
+        <!-- Final Warning Box -->
+        <div class="bg-gradient-to-r from-indigo-900 to-purple-900 border-l-4  rounded-r-xl p-6 md:p-8 my-12 shadow-xl">
+            <h2 class="text-2xl font-bold text-white mb-4">Final Warning</h2>
+            <p class="text-lg mb-4">This Risk Disclosure Statement does not describe every possible risk. Investments involve risks not covered here.</p>
+            <p class="text-lg font-semibold">There is no substitute for careful review and personal judgment.</p>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 ">
+    <!-- Main Footer Content -->
+    <div class="max-w-7xl py-16 mx-6 md:mx-10">
+        <div class="grid md:grid-cols-5 gap-8">
+
+            
+            <!-- Column 1: Brand & Description -->
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="h-10 w-10 bg-gradient-to-r rounded-lg"><img src="./images/blockvest_logo-removebg.png" alt="BlockVest's Logo" class="h-10 w-15"></div>
+                    <span class="text-2xl font-bold text-white">BlockVest</span>
+                </div>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Democratizing wealth creation through fractional real estate investment. Own premium properties, earn passive income, build generational wealth—starting from just ₦100,000.
+                </p>
+
+
+                <!-- Social Media Links -->
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/facebook_logo.jpg" alt="facebook logo">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/twitter_logo.jpg" alt="twitter logo">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-instagram transition">
+                        <img src="./images/linkedin_logo.jpg" alt="linkedin logo">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/telegram_logo.jpg" alt="telegram logo">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Column 2: Platform -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Platform</h3>
+                <ul class="space-y-3">
+                    <li><a href="./index.html#howItWorks" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> How It Works
+                    </a></li>
+                    <li><a href="./index.html#investmentOptions" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Browse Properties
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Investment Calculator
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Dashboard
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> For Investors
+                    </a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Company -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Company</h3>
+                <ul class="space-y-3">
+                    <li><a href="./index.html#ourStory" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> About Us
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Our Team
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Careers
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Press
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Contact Us
+                    </a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Resources -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Resources</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Education Hub
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Blog & Articles
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> FAQ
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Documents
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Reports & Insights
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Additional Info Row -->
+        <div class="grid md:grid-cols-3 gap-5 mt-12 pt-12 border-t border-gray-800">
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="text-white font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-phone text-blue-500"></i> Contact
+                </h4>
+                <ul class="space-y-2 text-sm">
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">General Inquiries</div>
+                            <a href="mailto:hello@blockvest.ng" class="text-white hover:text-blue-400">hello@blockvest.ng</a>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">Investor Relations</div>
+                            <a href="mailto:invest@blockvest.ng" class="text-white hover:text-blue-400">invest@blockvest.ng</a>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-headset text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">Support</div>
+                            <a href="mailto:support@blockvest.ng" class="text-white hover:text-blue-400">support@blockvest.ng</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Legal Links -->
+            <div>
+                <h4 class="text-white font-bold ml-0 mb-4 flex items-center gap-2">
+                    <i class="fas fa-balance-scale text-blue-500"></i> Legal
+                </h4>
+                <ul class="space-y-2 text-sm ml-2.5">
+                    <li><a href="./TOS.html" class="hover:text-white transition">Terms of Service</a></li>
+                    <li><a href="./privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="./risk_disclosure.html" class="hover:text-white transition">Risk Disclosure</a></li>
+                    <li><a href="./compliance_policy.html" class="hover:text-white transition">Compliance Policy</a></li>
+                    <li><a href="./cookie_policy.html" class="hover:text-white transition">Cookie Policy</a></li>
+                </ul>
+            </div>
+          
+            
+            <div class="">
+                <h3 class="font-semibold text-white">Join Our Waitlist</h3>
+                <p class="py-4 text-gray-400">Join smart investors already building wealth through early access to deals, free investments guides, and market alerts</p>
+                <form action="./form.php" class="pb-5">
+                    <input type="email" name="emailName" id="emailForm" class="w-48 md:w-32 lg:w-52 xl:w-60 border-1 border-gray-300 py-2 rounded-md">
+                    <input type="submit" value="Submit" class="py-2 px-3 bg-purple-600 rounded-md">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                
+                <!-- Copyright -->
+                <div class="text-gray-400 text-center md:text-left">
+                    <p>&copy; 2025 BlockVest Technologies Limited. All rights reserved.</p>
+                    <p class="text-xs mt-1">RC Number: [Your CAC Number] | SEC Registered Investment Platform</p>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-shield-check text-green-500"></i>
+                        <span>SEC Compliant</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-lock text-green-500"></i>
+                        <span>256-bit SSL</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-check-circle text-green-500"></i>
+                        <span>Verified Platform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Risk Disclaimer Bar -->
+    <div class="bg-gray-950 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <p class="text-xs text-gray-500 text-center leading-relaxed">
+                <i class="fas fa-info-circle text-yellow-500"></i> 
+                <strong>Investment Risk Disclosure:</strong> Real estate investments carry risk of loss. Property values and rental income may fluctuate. Past performance does not guarantee future results. Investments are not NDIC insured. Only invest money you can afford to hold for 3-5 years. Read our full Risk Disclosure before investing.
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <body class="bg-gray-950 text-gray-200 font-sans">
+
+    <!-- Header -->
+    <header class="bg-gray-950">
+        <div class="hidden xl:flex justify-between items-center gap-5 mx-6 md:mx-10 h-20 pt-3 text-white font-semibold">
+            <div class="basis-50"><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></div>
+            <div><a href="" class="hover:underline">Dashboard</a></div>
+            <div><a href="./index.html#investmentOptions" class="hover:underline">Investment Options</a></div>
+            <div><a href="./index.html#howItWorks" class="hover:underline">How It Works</a></div>
+            <div><a href="./index.html#ourStory" class="hover:underline">About Us</a></div>
+            <div><a href="./index.html#resources" class="hover:underline">Resources</a></div>
+            <div class="basis-50"><a href="" class="hover:underline">Contact Us</a></div>
+            <div class="justify-self-end"><a href="" class="hover:underline">Log in <span aria-hidden="true">&rarr;</span></a></div>
+        </div>
+
+        <div id="hamburgerMenu" class="flex xl:hidden justify-between items-center mx-6 md:mx-10">
+            <div class="p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></a></div>
+            <div>
+                <button id="mobileHamburgerBtn" class="py-2.5 px-3 rounded-md md:py-3 md:px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" style="color: white;" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobileMenu" class="fixed hidden flex-col items-start mx-6 md:mx-10 ml-10 pt-3 text-white font-semibold bg-gray-700/100 w-full h-full z-50">
+            <div class="flex justify-between items-center w-full">
+                <div class="ml-10 p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="BlockVest Logo" class="h-10"></a></div>
+                <div>
+                    <button id="mobileCancelBtn" class="py-2.5 px-3 rounded-md md:py-3 md:px-4 mr-20">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Dashboard</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#investmentOptions">Investment Options</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#howItWorks">How It Works</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#ourStory">About Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="./index.html#resources">Resources</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Contact Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Log in <span aria-hidden="true">&rarr;</span></a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Privacy Policy Content -->
+    <main class="max-w-7xl mx-auto px-6 md:px-10 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl pt-10 font-bold text-white flex items-center justify-center gap-3">
+                PRIVACY POLICY
+            </h1>
+            <p class="mt-4 text-text-muted"><strong>Last Updated:</strong> January 15, 2025</p>
+            <p class="text-text-muted"><strong>Effective Date:</strong> January 15, 2025</p>
+        </header>
+
+        <!-- Section 1: Introduction -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                1. INTRODUCTION
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4"><strong>BlockVest Technologies Limited</strong> ("BlockVest," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and share your personal information when you use our Platform.</p>
+            <p class="mb-4">This Policy complies with the <strong>Nigeria Data Protection Regulation (NDPR) 2019</strong> and other applicable data protection laws.</p>
+            <p>By using BlockVest, you consent to the data practices described in this Policy.</p>
+        </section>
+
+        <!-- Section 2: Information We Collect -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                2. INFORMATION WE COLLECT
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.1 Information You Provide</h3>
+            
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Account Registration:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Full name</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Email address</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Phone number</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Date of birth</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Residential address</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Nationality</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Identity Verification (KYC):</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Government-issued ID (NIN, Driver's License, Passport, Voter's Card)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Proof of address (utility bill, bank statement)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Selfie photograph</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Additional documents as required by law</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Financial Information:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Bank account details (for dividend payments)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Payment card information (processed securely by payment partners)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Investment history and preferences</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Source of funds documentation (for large investments)</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Communications:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Customer support inquiries</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Survey responses</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Newsletter preferences</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Feedback and reviews</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.2 Information Automatically Collected</h3>
+            
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Device and Usage Information:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> IP address</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Device type and operating system</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Browser type and version</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Pages visited and time spent</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Click patterns and navigation paths</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Referring website</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Dates and times of access</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Cookies and Similar Technologies:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Session cookies (required for Platform function)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Analytics cookies (track usage patterns)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Preference cookies (remember your settings)</li>
+                </ul>
+                <p class="mt-3 text-sm text-text-muted">See our Cookie Policy for details</p>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Location Information:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Approximate location based on IP address</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Precise location (only if you grant permission)</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">2.3 Information from Third Parties</h3>
+            
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Payment Processors:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Transaction confirmation</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Payment status</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Fraud detection data</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Identity Verification Services:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> ID verification results</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Risk scores</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Compliance checks</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Public Sources:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Property records</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Business registrations</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Sanctions lists</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3: How We Use Your Information -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                3. HOW WE USE YOUR INFORMATION
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6">We use your information for:</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.1 Providing Services</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Creating and managing your account</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Processing investments and transactions</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Distributing dividends</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Providing customer support</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Sending service notifications and updates</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.2 Legal Compliance</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Identity verification (KYC/AML requirements)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Preventing fraud and money laundering</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Complying with court orders and legal obligations</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Responding to regulatory requests</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.3 Platform Improvement</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Analyzing usage patterns</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Improving features and functionality</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Developing new services</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Testing and troubleshooting</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.4 Communication</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Sending investment opportunities</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Providing market updates</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Delivering newsletters (with your consent)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Responding to inquiries</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.5 Security</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Detecting and preventing fraud</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Protecting against unauthorized access</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Monitoring for suspicious activity</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Enforcing our Terms of Service</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">3.6 Marketing (With Your Consent)</h3>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Sending promotional offers</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Personalized recommendations</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Market research surveys</li>
+            </ul>
+        </section>
+
+        <!-- Section 4: Legal Basis for Processing -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                4. LEGAL BASIS FOR PROCESSING
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">We process your personal information based on:</p>
+            <ul class="space-y-3 pl-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Contract Performance: </strong> Necessary to provide our services</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Legal Obligation: </strong> Required by Nigerian law (KYC/AML)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Legitimate Interest: </strong> Platform security, fraud prevention, improvement</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Consent: </strong> Marketing communications, optional features</li>
+            </ul>
+        </section>
+
+        <!-- Section 5: How We Share Your Information -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                5. HOW WE SHARE YOUR INFORMATION
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6">We share your information with:</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.1 Service Providers</h3>
+            
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Payment Processors:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Paystack (transaction processing)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Banks (fund transfers)</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Identity Verification:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> KYC/AML service providers</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Credit bureaus (for fraud prevention)</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Technology Partners:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Cloud hosting providers</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Analytics services</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Customer support tools</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Professional Services:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Legal advisors</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Accountants and auditors</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Compliance consultants</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.2 Regulatory Authorities</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Securities and Exchange Commission (SEC)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Federal Inland Revenue Service (FIRS)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Economic and Financial Crimes Commission (EFCC)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Nigerian Financial Intelligence Unit (NFIU)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Other regulatory bodies as required by law</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.3 Property-Related Parties</h3>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Property management companies</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Legal representatives (for documentation)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Insurance providers</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Other investors (for co-ownership purposes)</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.4 Business Transfers</h3>
+            <p class="mb-6">If BlockVest is acquired or merged, your information may be transferred to the successor entity.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">5.5 With Your Consent</h3>
+            <p>We may share information for other purposes with your explicit consent.</p>
+        </section>
+
+
+        <!-- Section 6: Data Security -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                6. DATA SECURITY
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.1 Security Measures</h3>
+            <p class="mb-4">We implement industry-standard security measures:</p>
+            
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Technical Safeguards:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> 256-bit SSL encryption (data in transit)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> AES encryption (data at rest)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Secure data centers with physical access controls</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Regular security audits and penetration testing</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Intrusion detection systems</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Organizational Safeguards:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Employee access restricted on need-to-know basis</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Confidentiality agreements with staff</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Regular security training</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Incident response procedures</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Account Security:</h4>
+                <ul class="space-y-2 pl-6">
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Strong password requirements</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Two-factor authentication (available)</li>
+                    <li class="flex items-start"><span class="text-primary mr-2">•</span> Login alerts and activity monitoring</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.2 No Guarantee</h3>
+            <p class="mb-6">While we implement strong security, no system is 100% secure. We cannot guarantee absolute security.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">6.3 Your Responsibility</h3>
+            <p class="mb-4">You must:</p>
+            <ul class="space-y-2 pl-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Keep your password confidential</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Use secure devices and networks</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Log out after use on shared devices</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Report suspicious activity immediately</li>
+            </ul>
+        </section>
+
+        <!-- Section 7: Data Retention -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                7. DATA RETENTION
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.1 Active Accounts</h3>
+            <p class="mb-6">We retain your information while your account is active and for as long as necessary to provide services.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.2 Closed Accounts</h3>
+            <p class="mb-4">After account closure, we retain information for:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>7 years: </strong> Financial records (regulatory requirement)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>7 years: </strong> KYC documents (AML compliance)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>5 years: </strong> Transaction history</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Indefinitely: </strong> Fraud prevention records</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">7.3 Deletion</h3>
+            <p>After retention periods expire, we securely delete or anonymize your information.</p>
+        </section>
+
+        <!-- Section 8: Your Privacy Rights -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                8. YOUR PRIVACY RIGHTS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6">Under NDPR, you have the right to:</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.1 Access</h3>
+            <p class="mb-6">Request a copy of your personal information we hold.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.2 Correction</h3>
+            <p class="mb-6">Request correction of inaccurate or incomplete information.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.3 Deletion</h3>
+            <p class="mb-6">Request deletion of your information (subject to legal retention requirements).</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.4 Data Portability</h3>
+            <p class="mb-6">Receive your information in a structured, machine-readable format.</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.5 Object to Processing</h3>
+            <p class="mb-6">Object to processing based on legitimate interests (e.g., marketing).</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.6 Withdraw Consent</h3>
+            <p class="mb-6">Withdraw consent for processing that requires consent (doesn't affect prior processing).</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.7 Complain</h3>
+            <p class="mb-6">Lodge a complaint with the Nigeria Data Protection Bureau (NDPB).</p>
+
+            <h3 class="text-xl font-semibold text-text-light mt-8 mb-4">8.8 Exercising Your Rights</h3>
+            <p class="mb-4">To exercise these rights, email: <a href="mailto:privacy@blockvest.ng" class="text-primary hover:underline">privacy@blockvest.ng</a></p>
+            <p>We will respond within 30 days. We may request additional information to verify your identity.</p>
+        </section>
+
+        <!-- Section 9: Cookies and Tracking -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                9. COOKIES AND TRACKING
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-6">We use cookies and similar technologies. See our separate Cookie Policy for details.</p>
+            <ul class="space-y-3 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Essential Cookies: </strong> Required for Platform functionality (cannot be disabled)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Analytics Cookies: </strong> Help us improve the Platform (can be disabled)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> <strong>Marketing Cookies: </strong> Deliver personalized ads (can be disabled)</li>
+            </ul>
+            <p class="text-sm"><strong>Manage Preferences: </strong> Visit Settings > Privacy > Cookies</p>
+        </section>
+
+        <!-- Section 10: Third-Party Links -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                10. THIRD-PARTY LINKS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p>Our Platform may contain links to third-party websites. We are not responsible for their privacy practices. Review their privacy policies before providing information.</p>
+        </section>
+
+        <!-- Section 11: Children's Privacy -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                11. CHILDREN'S PRIVACY
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p>BlockVest is not intended for users under 18. We do not knowingly collect information from children. If you believe a child has provided us information, contact <a href="mailto:privacy@blockvest.ng" class="text-primary hover:underline">privacy@blockvest.ng</a> immediately.</p>
+        </section>
+
+        <!-- Section 12: International Transfers -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                12. INTERNATIONAL TRANSFERS
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p>Your information may be transferred to and stored in countries outside Nigeria where our service providers operate. We ensure adequate safeguards are in place.</p>
+        </section>
+
+        <!-- Section 13: Automated Decision-Making -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                13. AUTOMATED DECISION-MAKING
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">We may use automated processes to:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Assess fraud risk</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Verify identity</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Recommend properties</li>
+            </ul>
+            <p>You have the right to request human review of automated decisions affecting you.</p>
+        </section>
+
+        <!-- Section 14: Data Protection Officer -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                14. DATA PROTECTION OFFICER
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">Our Data Protection Officer can be reached at:</p>
+            <ul class="space-y-2">
+                <li><strong>Email:</strong> <a href="mailto:dpo@blockvest.ng" class="text-primary hover:underline">dpo@blockvest.ng</a></li>
+                <li><strong>Address:</strong> [Your Office Address]</li>
+            </ul>
+        </section>
+
+        <!-- Section 15: Changes to This Policy -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                15. CHANGES TO THIS POLICY
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">We may update this Privacy Policy. Material changes will be notified via:</p>
+            <ul class="space-y-2 pl-6 mb-6">
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Email notification (30 days advance)</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Prominent Platform notice</li>
+                <li class="flex items-start"><span class="text-primary mr-2">•</span> Updated "Last Updated" date</li>
+            </ul>
+            <p>Continued use after changes constitutes acceptance.</p>
+        </section>
+
+        <!-- Section 16: Contact Us -->
+        <section class="bg-card-bg rounded-xl p-6 md:p-8 mb-8  ">
+            <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 pb-4  border-b-1 border-primary relative">
+                16. CONTACT US
+                <span class="absolute bottom-0 left-0 w-16 h-1 bg-primary rounded"></span>
+            </h2>
+            <p class="mb-4">Questions about this Privacy Policy or our data practices?</p>
+            <div class="mb-6">
+                <p class="font-semibold text-lg mb-3">BlockVest Technologies Limited</p>
+                <ul class="space-y-2">
+                    <li><strong>Privacy Inquiries:</strong> <a href="mailto:privacy@blockvest.ng" class="text-primary hover:underline">privacy@blockvest.ng</a></li>
+                    <li><strong>General Support:</strong> <a href="mailto:support@blockvest.ng" class="text-primary hover:underline">support@blockvest.ng</a></li>
+                </ul>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-border-dark">
+                <p class="font-semibold text-lg mb-3">Nigeria Data Protection Bureau:</p>
+                <ul class="space-y-2">
+                    <li><strong>Website:</strong> <a href="https://ndpb.gov.ng" class="text-primary hover:underline" target="_blank">ndpb.gov.ng</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:info@ndpb.gov.ng" class="text-primary hover:underline">info@ndpb.gov.ng</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Important Notice Box -->
+        <div class="bg-gradient-to-r from-indigo-900 to-purple-900 border-l-4 border-primary rounded-r-xl p-6 md:p-8 my-12 shadow-xl">
+            <h2 class="text-2xl font-bold text-white mb-4">Your Privacy Matters</h2>
+            <p class="text-lg mb-4">We are committed to protecting your personal information and respecting your privacy rights under Nigerian law.</p>
+            <p>If you have any concerns about how we handle your data, please contact our Data Protection Officer at <a href="mailto:dpo@blockvest.ng" class="text-primary hover:underline font-semibold">dpo@blockvest.ng</a></p>
+        </div>
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-300 ">
+        <!-- Main Footer Content -->
+        <div class="max-w-7xl py-16 mx-6 md:mx-10">
+            <div class="grid md:grid-cols-5 gap-8">
+
+                
+                <!-- Column 1: Brand & Description -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="h-10 w-10 bg-gradient-to-r rounded-lg"><img src="./images/blockvest_logo-removebg.png" alt="BlockVest's Logo" class="h-10 w-15"></div>
+                        <span class="text-2xl font-bold text-white">BlockVest</span>
+                    </div>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        Democratizing wealth creation through fractional real estate investment. Own premium properties, earn passive income, build generational wealth—starting from just ₦100,000.
+                    </p>
+
+
+                    <!-- Social Media Links -->
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                            <img src="./images/facebook_logo.jpg" alt="facebook logo">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                            <img src="./images/twitter_logo.jpg" alt="twitter logo">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-instagram transition">
+                            <img src="./images/linkedin_logo.jpg" alt="linkedin logo">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                            <img src="./images/telegram_logo.jpg" alt="telegram logo">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Platform -->
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-4">Platform</h3>
+                    <ul class="space-y-3">
+                        <li><a href="./index.html#howItWorks" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> How It Works
+                        </a></li>
+                        <li><a href="./index.html#investmentOptions" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Browse Properties
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Investment Calculator
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Dashboard
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> For Investors
+                        </a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Company -->
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-4">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="./index.html#ourStory" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> About Us
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Our Team
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Careers
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Press
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Contact Us
+                        </a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Resources -->
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-4">Resources</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Education Hub
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Blog & Articles
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> FAQ
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Documents
+                        </a></li>
+                        <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                            <i class="fas fa-chevron-right text-xs text-blue-500"></i> Reports & Insights
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Additional Info Row -->
+            <div class="grid md:grid-cols-3 gap-5 mt-12 pt-12 border-t border-gray-800">
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-white font-bold mb-4 flex items-center gap-2">
+                        <i class="fas fa-phone text-blue-500"></i> Contact
+                    </h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                            <div>
+                                <div class="text-gray-400">General Inquiries</div>
+                                <a href="mailto:hello@blockvest.ng" class="text-white hover:text-blue-400">hello@blockvest.ng</a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                            <div>
+                                <div class="text-gray-400">Investor Relations</div>
+                                <a href="mailto:invest@blockvest.ng" class="text-white hover:text-blue-400">invest@blockvest.ng</a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fas fa-headset text-blue-500 mt-1"></i>
+                            <div>
+                                <div class="text-gray-400">Support</div>
+                                <a href="mailto:support@blockvest.ng" class="text-white hover:text-blue-400">support@blockvest.ng</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Legal Links -->
+                <div>
+                    <h4 class="text-white font-bold ml-0 mb-4 flex items-center gap-2">
+                        <i class="fas fa-balance-scale text-blue-500"></i> Legal
+                    </h4>
+                    <ul class="space-y-2 text-sm ml-2.5">
+                        <li><a href="./TOS.html" class="hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="./privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="./risk_disclosure.html" class="hover:text-white transition">Risk Disclosure</a></li>
+                        <li><a href="./compliance_policy.html" class="hover:text-white transition">Compliance Policy</a></li>
+                        <li><a href="./cookie_policy.html" class="hover:text-white transition">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            
+                
+                <div class="">
+                    <h3 class="font-semibold text-white">Join Our Waitlist</h3>
+                    <p class="py-4 text-gray-400">Join smart investors already building wealth through early access to deals, free investments guides, and market alerts</p>
+                    <form action="./form.php" class="pb-5">
+                        <input type="email" name="emailName" id="emailForm" class="w-48 md:w-32 lg:w-52 xl:w-60 border-1 border-gray-300 py-2 rounded-md">
+                        <input type="submit" value="Submit" class="py-2 px-3 bg-purple-600 rounded-md">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                    
+                    <!-- Copyright -->
+                    <div class="text-gray-400 text-center md:text-left">
+                        <p>&copy; 2025 BlockVest Technologies Limited. All rights reserved.</p>
+                        <p class="text-xs mt-1">RC Number: [Your CAC Number] | SEC Registered Investment Platform</p>
+                    </div>
+                    
+                    <!-- Trust Badges -->
+                    <div class="flex items-center gap-4">
+                        <div class="flex items-center gap-2 text-xs">
+                            <i class="fas fa-shield-check text-green-500"></i>
+                            <span>SEC Compliant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs">
+                            <i class="fas fa-lock text-green-500"></i>
+                            <span>256-bit SSL</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Verified Platform</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Risk Disclaimer Bar -->
+        <div class="bg-gray-950 border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                <p class="text-xs text-gray-500 text-center leading-relaxed">
+                    <i class="fas fa-info-circle text-yellow-500"></i> 
+                    <strong>Investment Risk Disclosure:</strong> Real estate investments carry risk of loss. Property values and rental income may fluctuate. Past performance does not guarantee future results. Investments are not NDIC insured. Only invest money you can afford to hold for 3-5 years. Read our full Risk Disclosure before investing.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+        
+
+    
+</body>
+</html> 

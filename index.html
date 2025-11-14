@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" class=" scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlokVest Website</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="">
+    <!-- Head Section -->
+    <div class=" bg-gray-950">
+        <div class=" hidden xl:flex justify-between items-center gap-5 mx-6 md:mx-10 h-20 pt-3 text-white font-semibold">
+            <div class="basis-50"><img src="./images/blockvest_logo-removebg.png" alt="" class="h-15"></div>
+            <div class=""><a href="" class=" hover:underline">Dashboard</a></div>
+            <div class=""><a href="#investmentOptions" class=" hover:underline">Investment Options</a></div>
+            <div class=""><a href="#howItWorks" class=" hover:underline">How It Works</a></div>
+            <div class=""><a href="#ourStory" class=" hover:underline">About Us</a></div>
+            <div class=""><a href="#resources" class=" hover:underline">Resources</a></div>
+            <div class="basis-50"><a href="" class=" hover:underline" class="">Contact Us</a></div>
+            <div class="justify-self-end "><a href="" class=" hover:underline">Log in <span aria-hidden="true">&rarr;</span></a></div>
+        </div>
+
+
+
+
+            <div id="hamburgerMenu" class="flex xl:hidden justify-between items-center mx-6 md:mx-10">
+                <div class=" p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="" class="h-15"></a></div>
+                <div><button id="mobileHamburgerBtn" class=" py-2.5 px-3 rounded-md md:py-3 md:px-4 "><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" style="color: white;" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg></button>
+                </div>
+            </div>
+
+            
+
+            
+         <div id="mobileMenu" class="fixed hidden flex-col items-start mx-6 md:mx-10 ml-10 pt-3 text-white font-semibold bg-gray-700/100 w-full h-full z-50">
+            <div class="flex justify-between items-center w-full">
+                <div class="ml-10 p-4"><a href=""><img src="./images/blockvest_logo-removebg.png" alt="" class="h-15"></a></div>
+                <div><button id="mobileCancelBtn" class=" py-2.5 px-3 rounded-md md:py-3 md:px-4 mr-20"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg></button>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Dashboard</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="#investmentOptions">Investment Options</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="#howItWorks">How It Works</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="#ourStory">About Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="#resources">Resources</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="" class="">Contact Us</a></div>
+                <div class="ml-10 w-full hover:bg-gray-400/40 p-3"><a href="">Log in <span aria-hidden="true">&rarr;</span></a></div>
+            </div>
+        </div>
+
+        
+
+        <div class="flex flex-col justify-center gap-6 items-center text-center mx-6 md:mx-10 pt-23 md:pt-25 lg:pt-30 xl:pt-40 pb-25">
+            <div><a href="" class=" text-gray-400 border-1 text-xs rounded-2xl px-3 py-1.5 font-semibold sm:text-md">Announcing premium investment option. <span class=" text-purple-400">Join now <span aria-hidden="true">&rarr;</span></span></a></div>
+            <div><h1 class="text-4xl font-bold text-white md:text-5xl lg:text-6xl">While Others Save <br> You Should Be Earning</h1></div>
+            <div><p class=" text-gray-400 text-xl mx-11 sm:mx-14 md:mx-25 lg:mx-60 font-light">Real estate made easy. Premium investment options. Passive income. Start with $100 and join thousands already building generational wealth.</p></div>
+            <div class="flex flex-row items-center gap-4 text-white font-medium mt-5">
+                <div><a href="" class=" bg-purple-600 py-3 px-3 rounded-md md:py-3 md:px-4">Start Investing</a></div>
+                <div><a href="">Learn More <span aria-hidden="true">&rarr;</span></a></div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+<!-- Our Story Section -->
+    <div class="bg-gray-900">
+        <div id="ourStory" class=" text-gray-200 mx-6 md:mx-10">
+            <h2 class="text-4xl pb-6 pt-10 font-medium md:text-5xl">Our Story</h2>
+            <p class="mr-10 md:mr-45 lg:mr-100 xl:mr-120 pb-8 text-lg font-light">BlockVest was born from a simple realization: the best wealth-building tools in history are locked out from over 80% of people. Not anymore, we are a movement to democratize wealth creation by making premium investment opportunities accessible to everyone... <a href="./about.html" style="font-size: smaller;" class=" text-purple-400">Read more about BlockVest <span aria-hidden="true">&rarr;</span></a> </p>
+            
+        </div>
+        <div class="flex flex-wrap gap-7 text-lg text-gray-200 mx-6 md:mx-10 pb-4 font-medium mr-20">
+            
+            <div class="relative inline-block">
+                <button class="popup-trigger text-white rounded-lg">The problem we saw <span aria-hidden="true">&rarr;</span></button>
+
+                <div style="display: none;" class="popup flex justify-center text-center hidden absolute bottom-full mb-2 left-1/2 -translate-x-1/4 bg-gray-800 text-white px-6 py-3 rounded-lg w-90 transform">
+                    <p class="font-light">Over the years, we watched talented, hardworking Nigerians struggle with a painful reality: no matter how much they saved, premium real estate remained out of reach. Meanwhile, the wealthy kept buying properties, earning 12-15% annual returns while the rest rented forever, building zero equity.</p>
+                    <p class="font-light">The wealth gap wasn't about work ethic or intelligence. It was about access.</p>
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
+                </div>
+            </div>
+
+            <div class="relative inline-block">
+                <button class="popup-trigger text-white rounded-lg">The breakthrough <span aria-hidden="true">&rarr;</span></button>
+
+                <div style="display: none;" class="popup flex justify-center text-center hidden absolute bottom-full mb-2 left-1/2 -translate-x-1/4 bg-gray-800 text-white px-6 py-3 rounded-lg w-90 transform">
+                    <p class="font-light">What if we could break down a ₦50 million property into 500 pieces? What if anyone could own a fraction for just ₦100,000?</p>
+                    <p class="font-light">Fractionalization isn't new—it's how public companies work (stocks), how REITs operate, how the wealthy have always pooled capital. But it's never been accessible to everyday Nigerians. Until BlockVest.</p>
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
+                </div>
+            </div>
+
+            <div class="relative inline-block">
+                <button class="popup-trigger text-white rounded-lg">Our Vision <span aria-hidden="true">&rarr;</span></button>
+
+                <div style="display: none;" class="popup flex justify-center text-center hidden absolute bottom-full mb-2 left-1/2 -translate-x-1/4 bg-gray-800 text-white px-6 py-3 rounded-lg w-90 transform">
+                    <p class="font-light">Over the years, we watched talented, hardworking Nigerians struggle with a painful reality: no matter how much they saved, premium real estate remained out of reach. Meanwhile, the wealthy kept buying properties, earning 12-15% annual returns while the rest rented forever, building zero equity.</p>
+                    <p class="font-light">The wealth gap wasn't about work ethic or intelligence. It was about access.</p>
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
+                </div>
+            </div>
+
+            <div class="relative inline-block">
+                <button class="popup-trigger text-white rounded-lg">Meet Our Leadership <span aria-hidden="true">&rarr;</span></button>
+
+                <div style="display: none;" class="popup flex justify-center text-center hidden absolute bottom-full mb-2 left-1/2 -translate-x-1/4 bg-gray-800 text-white px-6 py-3 rounded-lg w-90 transform">
+                    <p class="font-light">Over the years, we watched talented, hardworking Nigerians struggle with a painful reality: no matter how much they saved, premium real estate remained out of reach. Meanwhile, the wealthy kept buying properties, earning 12-15% annual returns while the rest rented forever, building zero equity.</p>
+                    <p class="font-light">The wealth gap wasn't about work ethic or intelligence. It was about access.</p>
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="grid grid-cols-2 grid-rows-2 gap-5 md:grid-cols-4 text-gray-200 pt-10 pb-13 mx-6 md:mx-10">
+            <div>
+                <h2 class="text-4xl font-semibold pb-2">50+</h2>
+                <p>Active investors</p>
+            </div>
+
+            <div>
+                <h2 class="text-4xl font-semibold pb-2">300+</h2>
+                <p>Properties funded</p>
+            </div>
+
+             <div>
+                <h2 class="text-4xl font-semibold pb-2">100%</h2>
+                <p>Legal compliance</p>
+            </div>
+                
+             <div>
+                <h2 class="text-4xl font-semibold pb-2">Unlimited</h2>
+                <p>Paid time off</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+<!-- HOW IT WORKS SECTION -->
+
+
+
+    <div id="howItWorks" class=" bg-gray-950  text-black">
+        <h2 class="text-gray-400 mx-10 text-4xl md:text-5xl pt-10 pb-5 font-medium flex justify-center">How It Works</h2>
+        <h3 class="flex justify-center text-center text-gray-200 mx-15 text-lg md:text-xl font-light m-0 pb-8">Here's a step by step guide on how to invest on BlockVest</h3>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 mx-10 gap-6 pb-10">
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 1: Create Your Account</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Visit BlockVest.com</li>
+                    <li>Sign up/sign in</li>
+                    <li>Fill out registration form</li>
+                </ul>
+            </div>
+
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 2: Complete KYC Verification</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Provide valid ID</li>
+                    <li>Upload Proof Of Address</li>
+                    <li>Wait for Verification</li>
+                </ul>
+            </div>
+
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 3: Browse & Review Properties</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Explore Investment Options</li>
+                    <li>Filter properties by preference</li>
+                    <li>Review property details</li>
+                </ul>
+            </div>
+
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 4: Calculate Your Returns</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Use our investment calculator</li>
+                    <li>Enter investment amount</li>
+                    <li>Get returns estimate</li>
+                </ul>
+            </div>
+
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 5: Make Your Investment</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Click on "Invest Now"</li>
+                    <li>Review investment terms</li>
+                    <li>Proceed to payments</li>
+                </ul>
+            </div>
+
+            <div class=" flex flex-col text-gray-800 border-1 border-gray-200 pl-6 bg-gray-400 p-5 rounded-xl">
+                <h2 class=" text-md font-bold py-1.5" >Step 6: Receive Confirmations</h2>
+                <ul class="list-disc list-inside ml-6 font-semibold">
+                    <li>Receive email confirmation</li>
+                    <li>Get investment certificate</li>
+                    <li>Track investment performance</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pb-8">
+            <div class="flex justify-center">
+                <a href="" class=" text-white text-md font-medium bg-purple-600 py-4 px-8 rounded-md m-0 mb-8">Start Investing Now</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Investment Option Section -->
+
+    <div id="investmentOptions" class=" bg-gray-900">
+        <div class="mx-6 md:mx-10">
+            <h2 class="text-3xl md:text-4xl py-10 font-medium text-gray-400">Investment Options</h2>
+            <p class=" text-2xl md:text-3xl text-gray-300 pb-5 font-light">Coming Soon...</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Education/Resources/Learn Section -->
+     <div id="resources" class="bg-gray-950">
+        <div class="mx-6 md:mx-10 text-gray-300">
+            <h2 class="text-3xl md:text-4xl pt-10 pb-5 font-medium text-gray-400">Resources</h2>
+            <div class="ml-6 py-1"><li class="list-disc list-inside"><a href="" class="underline">Education Hub</a></li></div>
+            <div class="ml-6 py-1"><li class="list-disc list-inside"><a href="" class="underline">Blog & Articles</a></li></div>
+            <div class="ml-6 py-1"><li class="list-disc list-inside"><a href="" class="underline">Market Reports & Insights</a></li></div>
+            <div class="ml-6 py-1"><li class="list-disc list-inside"><a href="" class="underline">Tools & Calculators</a></li></div>
+            <div class="ml-6 py-1"><li class="list-disc list-inside"><a href="" class="underline">Our Documents</a></li></div>
+        </div>
+
+
+
+<!-- FAQ Section -->
+
+    <div class="faq-item bg-gray-950 ">
+        <h2 class="text-gray-400 text-3xl flex justify-center mb-5 mt-9 font-medium md:text-4xl">FAQ</h2>
+
+        <div class="flex flex-col justify-center mx-10 ">
+            <button class="faq-question w-full text-left py-4 px-6 flex justify-between items-center focus:outline-none text-white">
+                <span class="text-lg font-medium">What is BlockVest and how does it work?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+           </button>
+            <div class="faq-answer hidden overflow-hidden transition-all duration-300 ease-in-out ">
+                <p class="pt-4 px-6 text-gray-400">BlockVest is Nigeria's leading fractional real estate investment platform that democratizes property ownership by allowing you to invest in premium real estate starting from just ₦100,000.</p>
+                <h3 class="pb-1.5 pt-3 px-6 text-gray-400 font-bold">How It Works:</h3>
+                <p class="pb-4 px-6 text-gray-400">We acquire high-value properties in prime locations and divide ownership into affordable blocks. Each block represents a legal fractional share of the property. When you purchase blocks, you become a proportional owner with full legal rights to rental income and property appreciation.</p>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col justify-center mx-10 ">
+            <button class="faq-question w-full text-left py-4 px-6 flex justify-between items-center focus:outline-none text-white">
+                <span class="text-lg font-medium">What returns can I realistically expect from my investment?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+           </button>
+            <div class="faq-answer hidden overflow-hidden transition-all duration-300 ease-in-out ">
+                <p class="py-4 px-6 text-gray-400">BlockVest investors typically earn returns through two primary channels: Rental Income and Property Appreciation. While Residential Properties are estimated to yield 8-12% annually and Property Appreciation 8-15% annually, these are just estimates and not fixed yields - actual result may vary. </p>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col justify-center mx-10 ">
+            <button class="faq-question w-full text-left py-4 px-6 flex justify-between items-center focus:outline-none text-white">
+                <span class="text-lg font-medium">What are the risks, and how does BlockVest protect my investment?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+           </button>
+            <div class="faq-answer hidden overflow-hidden transition-all duration-300 ease-in-out ">
+                <p class="py-4 px-6 text-gray-400">Real estate investing carries risks like market flunctuation, vacancy, tenant default, and economic changes. To mitigate these risks, we conduct thorough property checks, offer professional management, provide insurance, encourage portfolio diversification, and offer transparent reporting, all backed by legal protection.</p>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col justify-center mx-10 ">
+            <button class="faq-question w-full text-left py-4 px-6 flex justify-between items-center focus:outline-none text-white">
+                <span class="text-lg font-medium">How do I make profits on my investment?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+           </button>
+            <div class="faq-answer hidden overflow-hidden transition-all duration-300 ease-in-out ">
+                <p class="py-4 px-6 text-gray-400">You will receive quarterly payouts of rental income and appreciations minus expenses. Our fee is 5% of earnings, with no hidden charges. We handle property management, maintenance and reporting with transparent breakdowns via email and dashboard.</p>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col justify-center mx-10 ">
+            <button class="faq-question w-full text-left py-4 px-6 flex justify-between items-center focus:outline-none text-white">
+                <span class="text-lg font-medium">What happens if BlockVest shuts down?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+           </button>
+            <div class="faq-answer hidden overflow-hidden transition-all duration-300 ease-in-out ">
+                <p class="py-4 px-6 text-gray-400">Your investment is protected through bank-level security, quarterly audits, and most importantly legal ownership of properties. Even if BlockVest were to close, your ownership would remian valid, with options to hire a new manager, sell, or transfer. Additional protections include seperate bank holding, insurance, government oversight, and legal rights to sue. Your protection comes from legal ownership, not just trust in BlockVest</p>
+            </div>
+        </div>
+
+
+        <div class="mx-10 pb-20">
+            <p class="text-white mt-6"><span class="font-semibold">Still Got Questions?</span> We are here to help. Reach out to us at <span class="underline font-medium">support@blockvest.ng</span></p>
+        </div>
+
+
+
+        
+    </div>
+      
+
+
+    
+
+
+
+    <!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 ">
+    <!-- Main Footer Content -->
+    <div class="max-w-7xl py-16 mx-6 md:mx-10">
+        <div class="grid md:grid-cols-5 gap-8">
+
+            
+            <!-- Column 1: Brand & Description -->
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="h-10 w-10 bg-gradient-to-r rounded-lg"><img src="./images/blockvest_logo-removebg.png" alt="BlockVest's Logo" class="h-10 w-15"></div>
+                    <span class="text-2xl font-bold text-white">BlockVest</span>
+                </div>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Democratizing wealth creation through fractional real estate investment. Own premium properties, earn passive income, build generational wealth—starting from just ₦100,000.
+                </p>
+
+
+                <!-- Social Media Links -->
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/facebook_logo.jpg" alt="facebook logo">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/twitter_logo.jpg" alt="twitter logo">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-instagram transition">
+                        <img src="./images/linkedin_logo.jpg" alt="linkedin logo">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition">
+                        <img src="./images/telegram_logo.jpg" alt="telegram logo">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Column 2: Platform -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Platform</h3>
+                <ul class="space-y-3">
+                    <li><a href="#howItWorks" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> How It Works
+                    </a></li>
+                    <li><a href="#investmentOptions" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Browse Properties
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Investment Calculator
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Dashboard
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> For Investors
+                    </a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Company -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Company</h3>
+                <ul class="space-y-3">
+                    <li><a href="#ourStory" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> About Us
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Our Team
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Careers
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Press
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Contact Us
+                    </a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Resources -->
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Resources</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Education Hub
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Blog & Articles
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> FAQ
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Documents
+                    </a></li>
+                    <li><a href="#" class="hover:text-white transition flex items-center gap-2">
+                        <i class="fas fa-chevron-right text-xs text-blue-500"></i> Reports & Insights
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Additional Info Row -->
+        <div class="grid md:grid-cols-3 gap-5 mt-12 pt-12 border-t border-gray-800">
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="text-white font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-phone text-blue-500"></i> Contact
+                </h4>
+                <ul class="space-y-2 text-sm">
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">General Inquiries</div>
+                            <a href="mailto:hello@blockvest.ng" class="text-white hover:text-blue-400">hello@blockvest.ng</a>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">Investor Relations</div>
+                            <a href="mailto:invest@blockvest.ng" class="text-white hover:text-blue-400">invest@blockvest.ng</a>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-headset text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="text-gray-400">Support</div>
+                            <a href="mailto:support@blockvest.ng" class="text-white hover:text-blue-400">support@blockvest.ng</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Legal Links -->
+            <div>
+                <h4 class="text-white font-bold ml-0 mb-4 flex items-center gap-2">
+                    <i class="fas fa-balance-scale text-blue-500"></i> Legal
+                </h4>
+                <ul class="space-y-2 text-sm ml-2.5">
+                    <li><a href="./TOS.html" class="hover:text-white transition">Terms of Service</a></li>
+                    <li><a href="./privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="./risk_disclosure.html" class="hover:text-white transition">Risk Disclosure</a></li>
+                    <li><a href="./compliance_policy.html" class="hover:text-white transition">Compliance Policy</a></li>
+                    <li><a href="./cookie_policy.html" class="hover:text-white transition">Cookie Policy</a></li>
+                </ul>
+            </div>
+          
+            
+            <div class="">
+                <h3 class="font-semibold text-white">Join Our Waitlist</h3>
+                <p class="py-4 text-gray-400">Join smart investors already building wealth through early access to deals, free investments guides, and market alerts</p>
+                <form action="./form.php" class="pb-5">
+                    <input type="email" name="emailName" id="emailForm" class="w-48 md:w-32 lg:w-52 xl:w-60 border-1 border-gray-300 py-2 rounded-md">
+                    <input type="submit" value="Submit" class="py-2 px-3 bg-purple-600 rounded-md">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                
+                <!-- Copyright -->
+                <div class="text-gray-400 text-center md:text-left">
+                    <p>&copy; 2025 BlockVest Technologies Limited. All rights reserved.</p>
+                    <p class="text-xs mt-1">RC Number: [Your CAC Number] | SEC Registered Investment Platform</p>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-shield-check text-green-500"></i>
+                        <span>SEC Compliant</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-lock text-green-500"></i>
+                        <span>256-bit SSL</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs">
+                        <i class="fas fa-check-circle text-green-500"></i>
+                        <span>Verified Platform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Risk Disclaimer Bar -->
+    <div class="bg-gray-950 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <p class="text-xs text-gray-500 text-center leading-relaxed">
+                <i class="fas fa-info-circle text-yellow-500"></i> 
+                <strong>Investment Risk Disclosure:</strong> Real estate investments carry risk of loss. Property values and rental income may fluctuate. Past performance does not guarantee future results. Investments are not NDIC insured. Only invest money you can afford to hold for 3-5 years. Read our full Risk Disclosure before investing.
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
